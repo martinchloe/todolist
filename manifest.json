@@ -1,0 +1,52 @@
+{
+    "name": "To Do List",
+    "short_name": "Todo",
+    "start_url": "/todo/index.html",
+    "display": "standalone",
+    "theme_color": "#cccccc",
+    "background_color": "#cccccc",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "img/icons/pwa_72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "img/icons/pwa_96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "img/icons/pwa_128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "img/icons/pwa_144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "img/icons/pwa_152x152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "img/icons/pwa_192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/icons/pwa_384x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "img/icons/pwa_512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

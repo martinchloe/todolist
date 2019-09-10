@@ -1,0 +1,45 @@
+html,
+body {
+  font-family: Helvetica, sans-serif, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 228, 212);
+}
+#app {
+  max-width: 70vw;
+  width: 100%;
+  background: white;
+  padding: 0 1em 1em 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+#list {
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+#list li {
+  display: flex;
+  margin: 0;
+  padding: 0.5em 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+#list li input {
+  margin-right: 1.5em;
+}
+#list li:last-of-type {
+  border: none;
+}
+button[data-action="delete"] {
+  margin-left: auto;
+  color: white;
+  background: salmon;
+  font-size: 0.4em;
+  border: none;
+  border-radius: 1em;
+  display: none;
+  cursor: pointer;
+}
+
+#list li:hover button[data-action="delete"] {
+  display: block;
+}
